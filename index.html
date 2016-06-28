@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My App</title>
+</head>
+<body>
+<div id="my-thing"></div>
+<script src="gen/main.js"></script>
+<script>
+    var node = document.getElementById('my-thing');
+    var app = Elm.Main.embed(node);
+</script>
+</body>
+</html>
